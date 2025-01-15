@@ -15,7 +15,7 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse text-justify" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link" href="#home">
@@ -42,17 +42,17 @@ function Navbar() {
                 Contact us
               </a>
             </li>
-            <li className="nav-item">
-              <a className="btn btn-warning me-2" href="#login">
-                Log in
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="btn btn-light border" href="#signup">
-                Sign up
-              </a>
-            </li>
           </ul>
+          <li className="nav-item">
+            <a className="btn btn-warning me-2" href="#login">
+              Log in
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="btn btn-light border" href="#signup">
+              Sign up
+            </a>
+          </li>
         </div>
       </div>
     </nav>

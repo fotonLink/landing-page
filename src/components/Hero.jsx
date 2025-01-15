@@ -17,6 +17,7 @@ function Hero() {
                 backgroundColor: "black",
                 color: "white",
                 padding: "3px 3px",
+                borderRadius: "6px",
               }}
             >
               Photonics
@@ -28,7 +29,7 @@ function Hero() {
             <br></br>
             professionals and companies
           </p>
-          <div className="mt-5">
+          <div className="mt-5 mb-5">
             <a className="btn btn-warning btn-lg me-3" href="#signup">
               Sign up
             </a>
