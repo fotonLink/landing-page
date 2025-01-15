@@ -4,7 +4,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
-import SignupSection from "./components/SignupSection";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
-      <SignupSection />
       <Footer />
     </div>
   );

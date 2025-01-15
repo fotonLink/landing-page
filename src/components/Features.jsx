@@ -3,12 +3,12 @@ import React from "react";
 function Features() {
   const features = [
     {
-      icon: "bi-person-fill",
+      icon: "bi-box-arrow-in-right",
       title: "Register/Login",
       description: "Create an account to access all features",
     },
     {
-      icon: "bi-pencil-square",
+      icon: "bi-person-circle",
       title: "Create/Update Profile",
       description: "Build your profile and showcase your expertise",
     },
@@ -25,13 +25,19 @@ function Features() {
   ];
 
   return (
-    <div className="container py-5" id="features">
+    <div
+      className="container-fluid py-5"
+      id="features"
+      style={{ backgroundColor: "#F9F9F9" }}
+    >
       <div className="row text-center">
         {features.map((feature, index) => (
-          <div className="col-md-3 mb-4" key={index}>
-            <i className={`bi ${feature.icon} display-4 text-warning`}></i>
+          <div className="col-md-3 mb-3 mt-3" key={index}>
+            <i className={`bi ${feature.icon} display-6 text-warning`}></i>
             <h5 className="mt-3">{feature.title}</h5>
-            <p className="text-muted">{feature.description}</p>
+            <p className="text-muted" style={{ fontSize: "0.8rem" }}>
+              {feature.description}
+            </p>
           </div>
         ))}
       </div>
