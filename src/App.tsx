@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
       <Navbar />
@@ -15,6 +15,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

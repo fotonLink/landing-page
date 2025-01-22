@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+const Footer: React.FC = () => {
   return (
     <footer
       className="footer bg-dark text-warning py-5"
@@ -24,6 +24,6 @@ function Footer() {
       </p>
     </footer>
   );
-}
+};
 
 export default Footer;

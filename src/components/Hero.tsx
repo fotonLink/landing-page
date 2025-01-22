@@ -1,7 +1,10 @@
 import React from "react";
-import heroImage from "../assets/hero-image.jpg"; // Replace with the path to your image
+import heroImage from "../assets/hero-image.jpg";
 
-function Hero() {
+// Define the props interface (if any props are needed in the future)
+interface HeroProps {}
+
+const Hero: React.FC<HeroProps> = () => {
   return (
     <div
       className="container py-5 d-flex align-items-center"
@@ -26,7 +29,7 @@ function Hero() {
           <h1 className="display-6 fw-bold">Industry Globally</h1>
           <p className="display-9 lead mt-3">
             Join the premier platform for photonics
-            <br></br>
+            <br />
             professionals and companies
           </p>
           <div className="mt-5 mb-5">
@@ -53,6 +56,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

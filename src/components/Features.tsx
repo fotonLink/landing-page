@@ -1,7 +1,15 @@
 import React from "react";
 
-function Features() {
-  const features = [
+// Define the feature item type
+interface Feature {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+const Features: React.FC = () => {
+  // Define the features array
+  const features: Feature[] = [
     {
       icon: "bi-box-arrow-in-right",
       title: "Register/Login",
@@ -45,6 +53,6 @@ function Features() {
       </div>
     </div>
   );
-}
+};
 
 export default Features;
